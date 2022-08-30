@@ -20,6 +20,13 @@ Include <code>text-fitter.js</code> in your project. Import the JS into your mai
 
 ```html
 <head>
+    <style>
+        h1 {
+            width: 100px;
+            height: 50px;
+            padding: 5px;
+        }
+    </style>
     <script defer type="module" src="main.js"></script>
 </head>
 <body>
