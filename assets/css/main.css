@@ -71,6 +71,26 @@ a {
     color: inherit;
 }
 
+input {
+    width: 90%;
+    max-width: 300px;
+    font-size: 2em;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin: 50px 0 20px;
+}
+
+output {
+    background-color: var(--highlight-light);
+    width: 90%;
+    max-width: 500px;
+    height: 200px;
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+
 *::selection {
-    background-color: var(--highlight);
+    background-color: var(--highlight-light);
 }

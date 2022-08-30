@@ -10,4 +10,6 @@
 
 ### Description
 
-Sometimes you want text to fit exactly inside a box and need to know what font size will do the job.
+Sometimes you want text to fit exactly inside a box with specific width and height measurements, and you need to know what font size will best do the job. This is that tool!
+
+### Usage
