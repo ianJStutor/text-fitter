@@ -1,22 +1,26 @@
 # Text Fitter
 
-## Ian Marshall
-
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
-### Live Site
-
-> [https://ianjstutor.github.io/text-fitter/](https://ianjstutor.github.io/text-fitter/)
-
-### Description
+## Description
 
 Sometimes you want text to fit exactly inside a box with specific width and height measurements, and you need to know what font size will best do the job. This is that tool!
 
-### Usage
+Built with vanilla JavaScript, my favorite flavor!
+
+## Author
+
+> [Ian Marshall](https://ianjstutor.github.io/ian-marshall/)
+
+## Live Site
+
+> [https://ianjstutor.github.io/text-fitter/](https://ianjstutor.github.io/text-fitter/)
+
+## Usage
 
 Include <code>text-fitter.js</code> in your project. Import the JS into your main JavaScript file and call <code>fitText(element)</code>, where <code>element</code> is an HTML element containing text you want to constrain to the width and height of the element.
 
-#### HTML
+### HTML
 
 ```html
 <head>
@@ -34,7 +38,7 @@ Include <code>text-fitter.js</code> in your project. Import the JS into your mai
 </body>
 ```
 
-#### JavaScript
+### JavaScript
 
 ```js
 //main.js
@@ -43,15 +47,15 @@ const element = document.querySelector("h1");
 fitText(element);
 ```
 
-### Documentation
+## Documentation
 
-#### Module Export
+### Module Export
 
 ```js
 export { fitText };
 ```
 
-#### Public Method
+### Public Method
 
 ```js
 function fitText(elementWithText) {}

@@ -2,10 +2,10 @@ function fitText(elementWithText) {
     const text = elementWithText.textContent,
           { width, height } = elementWithText.getBoundingClientRect(),
           style = window.getComputedStyle(elementWithText),
-          paddingTop = Number(style.getPropertyValue("padding-top").replace("px", "")) ?? 0,
-          paddingRight = Number(style.getPropertyValue("padding-right").replace("px", "")) ?? 0,
-          paddingBottom = Number(style.getPropertyValue("padding-bottom").replace("px", "")) ?? 0,
-          paddingLeft = Number(style.getPropertyValue("padding-left").replace("px", "")) ?? 0,
+          paddingTop = Number(style.getPropertyValue("padding-top").replace("px", "")) || 0,
+          paddingRight = Number(style.getPropertyValue("padding-right").replace("px", "")) || 0,
+          paddingBottom = Number(style.getPropertyValue("padding-bottom").replace("px", "")) || 0,
+          paddingLeft = Number(style.getPropertyValue("padding-left").replace("px", "")) || 0,
           maxFontSize = getMaxFontSize(text, width-paddingLeft-paddingRight, height-paddingTop-paddingBottom);
     elementWithText.style.fontSize = `${maxFontSize}px`;
 }
