@@ -31,7 +31,7 @@ Include <code>text-fitter.js</code> in your project. Import the JS into your mai
             padding: 5px;
         }
     </style>
-    <script defer type="module" src="main.js"></script>
+    <script type="module" src="main.js"></script>
 </head>
 <body>
     <h1>Does this text make me look big?</h1>
